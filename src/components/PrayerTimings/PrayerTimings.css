@@ -3,3 +3,83 @@
   margin-top: 80px;
   direction: rtl;
 }
+
+.time-section {
+  margin-top: 50px;
+  background-color: #e0cfab0a;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+
+}
+
+.time-section .day {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+
+.time-section .day svg {
+  font-size: 50px;
+  color: #fff
+}
+
+.time-section .day p {
+  color: var(--light-green);
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.time-section .date {
+  margin-top: 30px;
+}
+
+.time-section .date span {
+  color: #ffffffb4;
+  font-weight: 300;
+  display: block;
+  direction: rtl;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.time-section h2 {
+  color: var(--light);
+  font-weight: 400;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.time-section p {
+  color: #ffffffb4;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.prayer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.prayer .prayer-card {
+  background-color: var(--meduim-green);
+  padding: 30px;
+  min-width: 150px;
+  border-radius: 20px;
+}
+
+.prayer .prayer-card h3 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.prayer .prayer-card span {
+  font-weight: 300;
+  font-size: 15px;
+  color: var(--light)
+}
