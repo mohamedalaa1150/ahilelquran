@@ -6,6 +6,21 @@
   margin-left: 150px;
 }
 
+@media screen and (max-width: 991px) {
+  .footer {
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    margin-left: 0;
+  }
+
+  .footer .list h4 {
+    margin-bottom: 20px !important;
+  }
+}
+
 .footer .desc img {
   width: 150px;
 }
@@ -17,6 +32,22 @@
   line-height: 1.7
 }
 
+@media screen and (max-width: 767px) {
+  .footer .desc h3 {
+    margin: 20px 0 40px 0;
+    font-size: 16px;
+    line-height: 1.7
+  }
+
+  .icon-and-text {
+    flex-direction: column;
+  }
+
+  .icon-and-text span:last-child {
+    margin-right: 0 !important;
+    margin-top: 20px;
+  }
+}
 
 .icon-and-text {
   display: flex;

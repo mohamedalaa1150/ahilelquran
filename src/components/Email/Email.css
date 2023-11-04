@@ -14,9 +14,67 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1199px) {
+  .email-section {
+    margin-top: 80px;
+    padding: 0 40px;
+  }
+
+  .email-section p {
+    margin-bottom: 10px;
+  }
+
+  .email-section {
+    text-align: center;
+  }
+
+  .email-section .email {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-section .email .input-and-button {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .email-section .email .input-and-button input {
+    padding: 10px 20px !important;
+    width: 100% !important;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px !important;
+    color: var(--light);
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .email-section .email .input-and-button button {
+    border: none;
+    padding: 10px 20px !important;
+    border-radius: 10px !important;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+}
+
 .email-section .email span {
   color: var(--light-green);
   font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .email-section .email span {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .email-section .email .input-and-button input {
+    width: 600px !important;
+  }
 }
 
 .email-section .email .input-and-button input {
@@ -28,7 +86,6 @@
   color: var(--light);
   outline: none;
 }
-
 
 .email-section .email .input-and-button button {
   color: #fff;

@@ -7,12 +7,13 @@ import SeactionHead from "../SeactionHead/SeactionHead";
 const TimeTable = () => {
   return (
     <div className="time-table">
-      <SeactionHead title="أركان الإسلام" subtitle="أركان الإسلام الخمسة" />
+      <SeactionHead title="الجدول الزمني" subtitle="جدول الحصص الأسبوعية" />
       <div className="table-buttons">
         <Button name="مواعيد التحفيظ" />
         <ButtonOutLine name="المسابقات" />
         <ButtonOutLine name="الفعاليات" />
       </div>
+
       <div className="t-table">
         <table>
           <thead>

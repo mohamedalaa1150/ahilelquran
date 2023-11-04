@@ -1,6 +1,6 @@
 .arkan-eleslam {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 80px;
   direction: rtl;
 }
 
@@ -12,9 +12,25 @@
   font-weight: 300;
 }
 
+
 .arkan-eleslam .cards {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1199px) {
+  .arkan-eleslam {
+    margin-top: 70px;
+  }
+
+  .arkan-eleslam .cards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }

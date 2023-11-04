@@ -4,6 +4,39 @@
   direction: rtl;
 }
 
+@media screen and (max-width: 1199px) {
+  .time-table {
+    margin-top: 50px;
+  }
+
+  th {
+    padding: 10px 15px !important;
+  }
+
+  td {
+    padding: 10px !important;
+    min-width: 100px !important;
+  }
+
+  .t-table tr td p {
+    font-size: 14px !important;
+  }
+
+  .t-table tr td span {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .table-buttons {
+    flex-direction: column;
+  }
+
+  .t-table {
+    overflow: scroll;
+  }
+}
+
 .table-buttons {
   margin-top: 30px;
   display: flex;
@@ -29,7 +62,6 @@ table {
 th {
   background-color: var(--light-green);
   text-align: center;
-  padding: 10px;
   font-weight: 500;
   padding: 25px 30px;
 

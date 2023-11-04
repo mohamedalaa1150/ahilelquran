@@ -10,14 +10,12 @@
   padding: 40px;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-
-
 }
 
 .time-section .day {
   display: flex;
+  align-items: flex-end;
   gap: 20px;
-  align-items: end;
 }
 
 .time-section .day svg {
@@ -53,6 +51,27 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 767px) {
+  .time-section .day {
+    justify-content: center;
+  }
+
+  .time-section .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-section h2 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .time-section p {
+    font-size: 18px !important;
+  }
+}
+
 .time-section p {
   color: #ffffffb4;
   font-weight: 300;
@@ -71,6 +90,23 @@
   padding: 30px;
   min-width: 150px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .prayer-timings {
+    margin-top: 70px;
+  }
+
+  .prayer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .prayer .prayer-card {
+    flex-basis: 150px;
+  }
 }
 
 .prayer .prayer-card h3 {
